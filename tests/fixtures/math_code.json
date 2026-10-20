@@ -1,0 +1,31 @@
+{
+ "card_id": 1792462278328,
+ "note_id": 1792462278328,
+ "ord": 0,
+ "notetype": {
+  "name": "Basic",
+  "type": 0,
+  "originalStockKind": 1,
+  "flds": [
+   {
+    "name": "Front"
+   },
+   {
+    "name": "Back"
+   }
+  ]
+ },
+ "template": {
+  "qfmt": "{{Front}}",
+  "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}"
+ },
+ "deck_name": "Biochem::Enzymes",
+ "tags": [],
+ "q_html": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>Solve \\(x^2 - 5x + 6 = 0\\)<ul><li>use factoring</li><li>check roots</li></ul><table><tr><th>a</th><th>b</th></tr><tr><td>1</td><td>2</td></tr></table><pre><code class=\"language-python\">print(roots)</code></pre>",
+ "a_html": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>Solve \\(x^2 - 5x + 6 = 0\\)<ul><li>use factoring</li><li>check roots</li></ul><table><tr><th>a</th><th>b</th></tr><tr><td>1</td><td>2</td></tr></table><pre><code class=\"language-python\">print(roots)</code></pre>\n\n<hr id=answer>\n\n\\[x = 2 \\text{ or } x = 3\\]",
+ "fields": {
+  "Front": "Solve \\(x^2 - 5x + 6 = 0\\)<ul><li>use factoring</li><li>check roots</li></ul><table><tr><th>a</th><th>b</th></tr><tr><td>1</td><td>2</td></tr></table><pre><code class=\"language-python\">print(roots)</code></pre>",
+  "Back": "\\[x = 2 \\text{ or } x = 3\\]"
+ },
+ "audio_refs": []
+}
