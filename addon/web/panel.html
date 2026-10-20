@@ -1,0 +1,16 @@
+<div id="app">
+  <header id="header" role="banner">
+    <div class="title"><span class="spark" aria-hidden="true">✦</span><span>Explainer</span></div>
+    <button id="model" class="model-chip" type="button" aria-label="Model (click to switch)" title="Model">DeepSeek Flash</button>
+    <button id="recent" class="icon-btn" type="button" aria-label="Recent explanations" aria-pressed="false" title="Recent">Recent</button>
+    <button id="settings" class="icon-btn" type="button" aria-label="Settings" title="Settings">⚙</button>
+    <button id="close" class="icon-btn" type="button" aria-label="Close panel" title="Close (Esc twice)">✕</button>
+  </header>
+  <div id="strip" aria-label="What is being explained"></div>
+  <div id="mainwrap">
+    <main id="main" role="log" aria-live="polite" aria-relevant="additions text" tabindex="-1"></main>
+    <button id="newtext" type="button" hidden>↓ New text</button>
+  </div>
+  <div id="dock"></div>
+  <div id="sr-status" class="sr-only" aria-live="polite"></div>
+</div>

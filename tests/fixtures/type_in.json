@@ -1,0 +1,33 @@
+{
+ "card_id": 1792462278326,
+ "note_id": 1792462278326,
+ "ord": 0,
+ "notetype": {
+  "name": "Basic (type in the answer)",
+  "type": 0,
+  "originalStockKind": 4,
+  "flds": [
+   {
+    "name": "Front"
+   },
+   {
+    "name": "Back"
+   }
+  ]
+ },
+ "template": {
+  "qfmt": "{{Front}}\n\n{{type:Back}}",
+  "afmt": "{{Front}}\n\n<hr id=answer>\n\n{{type:Back}}"
+ },
+ "deck_name": "Biochem::Enzymes",
+ "tags": [],
+ "q_html": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>Non-selective beta blocker used for performance anxiety?\n\n[[type:Back]]",
+ "a_html": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>Non-selective beta blocker used for performance anxiety?\n\n<hr id=answer>\n\n[[type:Back]]",
+ "fields": {
+  "Front": "Non-selective beta blocker used for performance anxiety?",
+  "Back": "propranolol"
+ },
+ "audio_refs": [],
+ "typed_answer": "metoprolol",
+ "type_correct": "propranolol"
+}

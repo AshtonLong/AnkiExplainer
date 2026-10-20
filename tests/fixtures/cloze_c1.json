@@ -1,0 +1,31 @@
+{
+ "card_id": 1792462278325,
+ "note_id": 1792462278324,
+ "ord": 0,
+ "notetype": {
+  "name": "Cloze",
+  "type": 1,
+  "originalStockKind": 5,
+  "flds": [
+   {
+    "name": "Text"
+   },
+   {
+    "name": "Back Extra"
+   }
+  ]
+ },
+ "template": {
+  "qfmt": "{{cloze:Text}}",
+  "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}"
+ },
+ "deck_name": "Biochem::Enzymes",
+ "tags": [],
+ "q_html": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n</style>A <span class=\"cloze\" data-cloze=\"&lt;b&gt;competitive&lt;&#x2F;b&gt;\" data-ordinal=\"1\">[type of inhibitor]</span> inhibitor raises apparent <span class=\"cloze-inactive\" data-ordinal=\"2\">K<sub>m</sub></span> but leaves <span class=\"cloze\" data-cloze=\"V&lt;sub&gt;max&lt;&#x2F;sub&gt;\" data-ordinal=\"1\">[...]</span> unchanged.",
+ "a_html": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n</style>A <span class=\"cloze\" data-ordinal=\"1\"><b>competitive</b></span> inhibitor raises apparent <span class=\"cloze-inactive\" data-ordinal=\"2\">K<sub>m</sub></span> but leaves <span class=\"cloze\" data-ordinal=\"1\">V<sub>max</sub></span> unchanged.<br>\nLineweaver–Burk lines intersect on the y-axis.",
+ "fields": {
+  "Text": "A {{c1::<b>competitive</b>::type of inhibitor}} inhibitor raises apparent {{c2::K<sub>m</sub>}} but leaves {{c1::V<sub>max</sub>}} unchanged.",
+  "Back Extra": "Lineweaver–Burk lines intersect on the y-axis."
+ },
+ "audio_refs": []
+}

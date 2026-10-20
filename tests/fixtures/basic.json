@@ -1,0 +1,36 @@
+{
+ "card_id": 1792462278319,
+ "note_id": 1792462278319,
+ "ord": 0,
+ "notetype": {
+  "name": "Basic",
+  "type": 0,
+  "originalStockKind": 1,
+  "flds": [
+   {
+    "name": "Front"
+   },
+   {
+    "name": "Back"
+   }
+  ]
+ },
+ "template": {
+  "qfmt": "{{Front}}",
+  "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}"
+ },
+ "deck_name": "Biochem::Enzymes",
+ "tags": [
+  "biochem",
+  "energy"
+ ],
+ "q_html": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>What does <b>ATP</b> stand for?",
+ "a_html": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>What does <b>ATP</b> stand for?\n\n<hr id=answer>\n\nAdenosine <i>triphosphate</i> [anki:play:a:0]<br><img src=\"heart.png\">",
+ "fields": {
+  "Front": "What does <b>ATP</b> stand for?",
+  "Back": "Adenosine <i>triphosphate</i> [sound:atp.mp3]<br><img src=\"heart.png\">"
+ },
+ "audio_refs": [
+  "atp.mp3"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "card_id": 1792462278341,
+ "note_id": 1792462278341,
+ "ord": 1,
+ "notetype": {
+  "name": "Image Occlusion",
+  "type": 1,
+  "originalStockKind": 6,
+  "flds": [
+   {
+    "name": "Occlusion"
+   },
+   {
+    "name": "Image"
+   },
+   {
+    "name": "Header"
+   },
+   {
+    "name": "Back Extra"
+   },
+   {
+    "name": "Comments"
+   }
+  ]
+ },
+ "template": {
+  "qfmt": "{{#Header}}<div>{{Header}}</div>{{/Header}}\n<div style=\"display: none\">{{cloze:Occlusion}}</div>\n<div id=\"err\"></div>\n<div id=\"image-occlusion-container\">\n    {{Image}}\n    <canvas id=\"image-occlusion-canvas\"></canvas>\n</div>\n<script>\ntry {\n    anki.imageOcclusion.setup();\n} catch (exc) {\n    document.getElementById(\"err\").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;\n}\n</script>\n",
+  "afmt": "{{#Header}}<div>{{Header}}</div>{{/Header}}\n<div style=\"display: none\">{{cloze:Occlusion}}</div>\n<div id=\"err\"></div>\n<div id=\"image-occlusion-container\">\n    {{Image}}\n    <canvas id=\"image-occlusion-canvas\"></canvas>\n</div>\n<script>\ntry {\n    anki.imageOcclusion.setup();\n} catch (exc) {\n    document.getElementById(\"err\").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;\n}\n</script>\n\n<div><button id=\"toggle\">Toggle Masks</button></div>\n{{#Back Extra}}<div>{{Back Extra}}</div>{{/Back Extra}}\n"
+ },
+ "deck_name": "Default",
+ "tags": [],
+ "q_html": "<style>#image-occlusion-canvas {\n    --inactive-shape-color: #ffeba2;\n    --active-shape-color: #ff8e8e;\n    --inactive-shape-border: 1px #212121;\n    --active-shape-border: 1px #212121;\n    --highlight-shape-color: #ff8e8e00;\n    --highlight-shape-border: 1px #ff8e8e;\n}\n\n.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style><div>Heart anatomy</div>\n<div style=\"display: none\"><div class=\"cloze-inactive\" data-ordinal=\"1\" data-shape=\"rect\" data-left=\".0625\" data-top=\".1\" data-width=\".3125\" data-height=\".3\" data-occludeInactive=\"1\" ></div><br><div class=\"cloze\" data-ordinal=\"2\" data-shape=\"ellipse\" data-left=\".59375\" data-top=\".55\" data-rx=\".125\" data-ry=\".15\" data-occludeInactive=\"1\" ></div><br><div class=\"cloze-inactive\" data-ordinal=\"1\" data-shape=\"polygon\" data-points=\".7,.05 .9,.05 .8,.3\" data-occludeInactive=\"1\" ></div><br><div class=\"cloze-inactive\" data-ordinal=\"3\" data-shape=\"text\" data-left=\".4\" data-top=\".85\" data-text=\"Ventricle\" data-scale=\"1\" data-font-size=\"0.05\" data-occludeInactive=\"1\" ></div></div>\n<div id=\"err\"></div>\n<div id=\"image-occlusion-container\">\n    <img src=\"heart.png\">\n    <canvas id=\"image-occlusion-canvas\"></canvas>\n</div>\n<script>\ntry {\n    anki.imageOcclusion.setup();\n} catch (exc) {\n    document.getElementById(\"err\").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;\n}\n</script>\n",
+ "a_html": "<style>#image-occlusion-canvas {\n    --inactive-shape-color: #ffeba2;\n    --active-shape-color: #ff8e8e;\n    --inactive-shape-border: 1px #212121;\n    --active-shape-border: 1px #212121;\n    --highlight-shape-color: #ff8e8e00;\n    --highlight-shape-border: 1px #ff8e8e;\n}\n\n.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style><div>Heart anatomy</div>\n<div style=\"display: none\"><div class=\"cloze-inactive\" data-ordinal=\"1\" data-shape=\"rect\" data-left=\".0625\" data-top=\".1\" data-width=\".3125\" data-height=\".3\" data-occludeInactive=\"1\" ></div><br><div class=\"cloze-highlight\" data-ordinal=\"2\" data-shape=\"ellipse\" data-left=\".59375\" data-top=\".55\" data-rx=\".125\" data-ry=\".15\" data-occludeInactive=\"1\" ></div><br><div class=\"cloze-inactive\" data-ordinal=\"1\" data-shape=\"polygon\" data-points=\".7,.05 .9,.05 .8,.3\" data-occludeInactive=\"1\" ></div><br><div class=\"cloze-inactive\" data-ordinal=\"3\" data-shape=\"text\" data-left=\".4\" data-top=\".85\" data-text=\"Ventricle\" data-scale=\"1\" data-font-size=\"0.05\" data-occludeInactive=\"1\" ></div></div>\n<div id=\"err\"></div>\n<div id=\"image-occlusion-container\">\n    <img src=\"heart.png\">\n    <canvas id=\"image-occlusion-canvas\"></canvas>\n</div>\n<script>\ntry {\n    anki.imageOcclusion.setup();\n} catch (exc) {\n    document.getElementById(\"err\").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;\n}\n</script>\n\n<div><button id=\"toggle\">Toggle Masks</button></div>\n<div>Blue = right atrium</div>\n",
+ "fields": {
+  "Occlusion": "{{c1::image-occlusion:rect:left=.0625:top=.1:width=.3125:height=.3:oi=1}}<br>{{c2::image-occlusion:ellipse:left=.59375:top=.55:rx=.125:ry=.15:oi=1}}<br>{{c1::image-occlusion:polygon:points=.7,.05 .9,.05 .8,.3:oi=1}}<br>{{c3::image-occlusion:text:left=.4:top=.85:text=Ventricle:scale=1:fs=0.05:oi=1}}",
+  "Image": "<img src=\"heart.png\">",
+  "Header": "Heart anatomy",
+  "Back Extra": "Blue = right atrium",
+  "Comments": ""
+ },
+ "audio_refs": []
+}

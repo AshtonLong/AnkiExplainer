@@ -1,0 +1,30 @@
+#explainer-btn {
+  margin-left: 4px;
+  position: relative;
+  white-space: nowrap;
+}
+#explainer-btn[hidden] { display: none; }
+#explainer-btn .explainer-spin {
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-right: 5px;
+  vertical-align: -0.08em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: explainer-spin 0.8s linear infinite;
+}
+#explainer-btn .explainer-dot {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--button-primary-bg, #3584e4);
+}
+@keyframes explainer-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  #explainer-btn .explainer-spin { animation: none; border-right-color: currentColor; opacity: 0.6; }
+}

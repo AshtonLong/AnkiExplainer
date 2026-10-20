@@ -1,0 +1,31 @@
+{
+ "card_id": 1792462278322,
+ "note_id": 1792462278321,
+ "ord": 1,
+ "notetype": {
+  "name": "Basic (and reversed card)",
+  "type": 0,
+  "originalStockKind": 2,
+  "flds": [
+   {
+    "name": "Front"
+   },
+   {
+    "name": "Back"
+   }
+  ]
+ },
+ "template": {
+  "qfmt": "{{Back}}",
+  "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}"
+ },
+ "deck_name": "Biochem::Enzymes",
+ "tags": [],
+ "q_html": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>dog",
+ "a_html": "<style>.card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n</style>dog\n\n<hr id=answer>\n\nperro",
+ "fields": {
+  "Front": "perro",
+  "Back": "dog"
+ },
+ "audio_refs": []
+}

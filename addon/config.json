@@ -1,0 +1,55 @@
+{
+  "model": "~deepseek/deepseek-flash-latest",
+  "reasoning": {
+    "hint":     { "effort": "none" },
+    "concise":  { "effort": "minimal" },
+    "followup": { "effort": "low" },
+    "deep":     { "effort": "medium" },
+    "display": "hidden",
+    "budget_tokens": null
+  },
+  "output": {
+    "concise_length": "standard",
+    "level": "undergraduate",
+    "studying": "",
+    "language": "same_as_card",
+    "memory_hook": true,
+    "temperature": 0.3,
+    "max_tokens": { "hint": 300, "concise": 1200, "followup": 2500, "deep": 4000 },
+    "stream": true
+  },
+  "behavior": {
+    "question_side": "hint",
+    "auto_open_on_answer": false,
+    "struggle_nudge": false,
+    "struggle_nudge_lapses": 2,
+    "panel_position": "right",
+    "panel_width": 380,
+    "font_size": 15,
+    "reduce_motion": false,
+    "show_cost": true,
+    "accent_color": ""
+  },
+  "shortcuts": {
+    "explain": "X",
+    "focus_input": "Shift+X",
+    "stop": "Ctrl+.",
+    "focus_reviewer": "Esc",
+    "chips": ["Alt+1", "Alt+2", "Alt+3", "Alt+4", "Alt+5", "Alt+6"]
+  },
+  "context": {
+    "send_images": true,
+    "max_images": 4,
+    "allow_remote_images": false,
+    "include_deck": true,
+    "include_tags": false,
+    "include_hidden_fields": false,
+    "include_typed_answer": true,
+    "drop_old_images": true,
+    "cache_enabled": true,
+    "cache_retention_days": 90
+  },
+  "chips": ["deeper", "example", "simpler", "analogy", "mnemonic", "quiz", "compare", "mistakes", "big_picture", "steps", "check"],
+  "usage": { "monthly_soft_cap_usd": null },
+  "prompts": { "overrides": {} }
+}
