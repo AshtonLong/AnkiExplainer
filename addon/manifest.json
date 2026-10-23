@@ -2,7 +2,7 @@
   "name": "Anki Explainer",
   "package": "anki_explainer",
   "min_point_version": 250200,
-  "human_version": "1.0.0",
-  "homepage": "https://github.com/AshtonLong/anki-explainer",
+  "human_version": "1.0.1",
+  "homepage": "https://github.com/AshtonLong/AnkiExplainer",
   "conflicts": []
 }
