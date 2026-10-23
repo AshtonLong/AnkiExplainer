@@ -11,7 +11,7 @@ Requires Anki desktop **25.02 or newer** on Windows, macOS, or Linux.
 
 ## Install
 
-- **From a file:** Tools → Add-ons → *Install from file…* → choose `anki_explainer.ankiaddon` (build it with `python scripts/build_addon.py`).
+- **From a file:** download `anki_explainer.ankiaddon` from the [latest release](https://github.com/AshtonLong/AnkiExplainer/releases/latest), then Tools → Add-ons → *Install from file…* → choose it and restart Anki. To build it yourself, run `python scripts/build_addon.py`.
 - **For development:** link or copy the `addon/` folder into your add-ons folder as `anki_explainer` (Tools → Add-ons → *View Files*), then restart Anki.
 
 ## Getting started

@@ -24,7 +24,7 @@ from dataclasses import dataclass, field
 from typing import Any, Callable
 
 BASE_URL = "https://openrouter.ai/api/v1"
-REFERER = "https://github.com/AshtonLong/anki-explainer"
+REFERER = "https://github.com/AshtonLong/AnkiExplainer"
 APP_TITLE = "Anki Explainer"
 
 CONNECT_TIMEOUT = 10.0
