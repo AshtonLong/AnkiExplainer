@@ -29,9 +29,12 @@ def main() -> int:
                     ignore=shutil.ignore_patterns("__pycache__", "meta.json", "user_files"))
     os.makedirs(os.path.join(addons, "anki_explainer", "user_files"))
     shutil.copytree(os.path.join(ROOT, "tests", "integration", "selftest_addon"), os.path.join(addons, "zz_selftest"))
-    if os.path.exists(ART):
-        shutil.rmtree(ART)
-    os.makedirs(ART)
+    # Empty the folder rather than delete it: sync clients (e.g. OneDrive) can
+    # hold a handle on the directory itself, which makes rmdir fail on Windows.
+    os.makedirs(ART, exist_ok=True)
+    for name in os.listdir(ART):
+        p = os.path.join(ART, name)
+        shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
     env = dict(os.environ)
     env.update({
         "EXPLAINER_SELFTEST": "1",
